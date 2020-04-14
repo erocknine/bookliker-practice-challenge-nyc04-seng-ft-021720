@@ -1,4 +1,30 @@
 body {
-	display: grid;
-	grid-template-columns: 2fr 8fr
+	margin: auto;
+	text-align: center;
+	grid-template-columns: 2fr 8fr;
+	width: 100%;
+}
+
+#list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+li {
+	list-style-type: none;
+	margin: 10px;
+	width: 200px;
+}
+
+.description {
+	display: none;
+}
+
+.users {
+	text-transform: capitalize;
+}
+
+.book-image {
+	height: 200px;
 }
